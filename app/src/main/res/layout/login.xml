@@ -21,13 +21,14 @@
         app:layout_constraintVertical_bias="0.108" />
 
     <EditText
+        android:id="@+id/editText2"
         android:layout_width="300dp"
         android:layout_height="40dp"
         android:layout_marginTop="248dp"
-        android:hint="E-mail"
-        android:textSize="25sp"
-        android:paddingStart="10dp"
         android:background="#836FFF"
+        android:hint="E-mail"
+        android:paddingStart="10dp"
+        android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
@@ -57,9 +58,12 @@
         android:text="Login"
         android:textAllCaps="false"
         android:textSize="40sp"
-        tools:layout_editor_absoluteX="130dp"
-        tools:layout_editor_absoluteY="400dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.806" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
