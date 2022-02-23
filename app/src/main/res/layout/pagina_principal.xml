@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C0C0C0"
+
+    >
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Environmental Social  Governance"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:paddingBottom="40dp"
+        android:layout_marginTop="50dp"
+        />
+
+
+
+
+<TableLayout
+    android:layout_width="100dp"
+    android:layout_height="300dp"
+    android:stretchColumns="0,1"
+    android:padding="30dp"
+    android:gravity="center"
+    android:background="#9370DB"
+    android:layout_marginEnd="15dp"
+    android:layout_marginStart="15dp"
+    >
+
+    <TableRow
+        android:background="#00FF7F"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Atuação"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/bordas_tabela_cabecalho"
+            android:paddingBottom="1dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pontos"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/bordas_tabela_cabecalho"
+            android:paddingBottom="1dp"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gestão de recursos"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:textColor="@color/white"
+           android:background="@drawable/bordas_tabela"
+            android:paddingBottom="1dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+ 10"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:textColor="@color/white"
+            android:background="@drawable/bordas_tabela"
+            android:paddingBottom="1dp"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Combate à poluição"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:textColor="@color/white"
+            android:background="@drawable/bordas_tabela"
+            android:paddingBottom="1dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+ 25"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:textColor="@color/white"
+            android:background="@drawable/bordas_tabela"
+            android:paddingBottom="1dp"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Respeito à diversidade"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:textColor="@color/white"
+            android:background="@drawable/bordas_tabela"
+            android:paddingBottom="1dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+ 10"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:textColor="@color/white"
+            android:background="@drawable/bordas_tabela"
+            android:paddingBottom="1dp"
+            />
+    </TableRow>
+
+</TableLayout>
+
+
+
+
+
+
+</TableLayout>
